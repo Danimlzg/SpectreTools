@@ -1,0 +1,38 @@
+# Archivos personales
+.*
+!.gitignore
+!gitignore
+
+# Directorios del sistema
+.cache/
+.config/
+.local/
+.pki/
+go/
+instance/
+static/
+__pycache__/
+*.pyc
+
+# Archivos de entorno
+*.db
+*.deb
+*.txt
+users.db
+
+# Herramientas externas
+spiderfoot/
+theHarvester/
+nuclei-templates/
+
+# Historial y logs
+.bash_history
+.xsession-errors*
+.sudo_as_admin_successful
+
+# Archivos de configuración personal
+.gitconfig
+.profile
+.bashrc
+.bash_logout
+.Xauthority
