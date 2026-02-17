@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predator - Registro</title>
+    <style>
+        body { background: #0d1117; color: #c9d1d9; font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: #161b22; padding: 40px; border-radius: 12px; border: 1px solid #30363d; width: 350px; }
+        input { width: 100%; padding: 12px; margin: 10px 0; background: #010409; border: 1px solid #30363d; color: white; border-radius: 6px; box-sizing: border-box; }
+        button { width: 100%; padding: 12px; background: #58a6ff; border: none; color: white; border-radius: 6px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 style="text-align:center; color:#58a6ff;">Registro Corporativo</h2>
+        <form method="POST">
+            <input type="text" name="username" placeholder="Nombre de Empresa / Usuario" required>
+            <input type="password" name="password" placeholder="Contraseña Segura" required>
+            <button type="submit">REGISTRARSE</button>
+        </form>
+        <p style="text-align:center;"><a href="/login" style="color:#8b949e; text-decoration:none;">Volver al login</a></p>
+    </div>
+</body>
+</html>
