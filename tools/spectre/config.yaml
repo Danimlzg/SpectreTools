@@ -1,0 +1,4 @@
+empresa:
+  nombre: 'Mi Empresa'
+logging:
+  nivel: 'INFO'
