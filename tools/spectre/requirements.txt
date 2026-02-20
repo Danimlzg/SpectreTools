@@ -1,0 +1,25 @@
+# Core
+aiohttp>=3.9.0
+aiodns>=3.2.0
+pyyaml>=6.0
+colorama>=0.4.6
+tldextract>=5.0.0
+
+# Web y redes
+requests>=2.31.0
+urllib3>=2.0.0
+websockets>=12.0
+dnspython>=2.4.0
+
+# Seguridad
+cryptography>=41.0.0
+pycryptodome>=3.19.0
+
+# Escaneo
+playwright>=1.40.0  # Para endpoint_harvester (opcional)
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Utilidades
+python-dateutil>=2.8.2
+humanize>=4.9.0
